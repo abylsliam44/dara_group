@@ -1,3 +1,5 @@
+
+
 // Made by Abylay Slamzhanov SE-2330
 
 import java.util.ArrayList;

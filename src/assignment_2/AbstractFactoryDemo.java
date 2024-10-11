@@ -1,3 +1,4 @@
+package assignment_2;
 // Abstract Product A
 interface Chair {
     void sitOn();

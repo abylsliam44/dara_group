@@ -1,3 +1,4 @@
+package assignment_2;
 public class BuilderComputer {
 
     // Вложенный класс Product: Компьютер

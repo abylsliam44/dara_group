@@ -2,7 +2,7 @@
 interface OperationStrategy {
     int execute(int a, int b);
 }
-//нем бар еды айтуга тусып СДУ га тусе салу керек ед
+//нем бар еды айтуга тусып СДУ га тусе салу керек ед збзб
 
 class AddStrategy implements OperationStrategy {
     @Override

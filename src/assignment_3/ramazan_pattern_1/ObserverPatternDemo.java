@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 interface Observer {
-    void gitgiupdate(String state);
+    void update(String state);  
 }
 
 class Subject {
@@ -20,7 +20,7 @@ class Subject {
 
     private void notifyAllObservers() {
         for (Observer observer : observers) {
-            observer.update(state);
+            observer.update(state);  
         }
     }
 }
@@ -39,7 +39,7 @@ class ConcreteObserver2 implements Observer {
     }
 }
 
-public class ObserverPatternDemo { // main pattern
+public class ObserverPatternDemo { 
     public static void main(String[] args) {
         Subject subject = new Subject();
 

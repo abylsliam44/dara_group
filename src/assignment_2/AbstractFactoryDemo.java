@@ -11,7 +11,9 @@ interface Table {
 // Concrete Product A1
 class VictorianChair implements Chair {
     @Override
-    public void sitOn() {
+    public void sitOn()
+
+    {
         System.out.println("Sitting on a Victorian Chair.");
     }
 }
@@ -92,3 +94,6 @@ public class AbstractFactoryDemo {
         modernTable.use();
     }
 }
+
+
+

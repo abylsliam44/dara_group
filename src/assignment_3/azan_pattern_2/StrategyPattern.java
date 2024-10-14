@@ -2,8 +2,8 @@
 interface OperationStrategy {
     int execute(int a, int b);
 }
+//нем бар еды айтуга тусып СДУ га тусе салу керек ед
 
-// Concrete Strategies
 class AddStrategy implements OperationStrategy {
     @Override
     public int execute(int a, int b) {

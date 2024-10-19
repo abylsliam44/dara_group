@@ -4,7 +4,7 @@ interface Iterator {
     int next();
 }
 
-//киын боп кеттыго гитпен збзб
+
 class NumberIterator implements Iterator {
     private int[] numbers;
     private int index;

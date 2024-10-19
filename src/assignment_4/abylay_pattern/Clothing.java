@@ -29,4 +29,3 @@ public class Clothing {
         return state;
     }
 }
-

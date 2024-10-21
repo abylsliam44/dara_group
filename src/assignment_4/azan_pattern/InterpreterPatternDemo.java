@@ -1,3 +1,5 @@
+package assignment_4.azan_pattern;
+
 // interpreter pattern by azan
 interface Expression {
     int interpret();
@@ -66,3 +68,4 @@ public class InterpreterPatternDemo {
         System.out.println("Result: " + subtract.interpret());
     }
 }
+

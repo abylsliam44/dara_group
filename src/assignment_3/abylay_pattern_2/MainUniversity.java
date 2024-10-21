@@ -11,7 +11,7 @@ public class MainUniversity {
         Student student1 = new Student("Alice", 1);
         Student student2 = new Student("Bob", 2);
 
-
+ 
         Command enrollStudent1 = new EnrollStudentCommand(student1, university);
         Command enrollStudent2 = new EnrollStudentCommand(student2, university);
         

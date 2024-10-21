@@ -1,4 +1,4 @@
-
+package assignment_1;
 
 // Made by Abylay Slamzhanov SE-2330
 

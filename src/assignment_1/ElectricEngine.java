@@ -1,3 +1,4 @@
+package assignment_1;
 public class ElectricEngine implements Engine {
     @Override
     public void start() {

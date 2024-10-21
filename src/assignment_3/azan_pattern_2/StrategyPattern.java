@@ -1,8 +1,8 @@
-// Strategy Interface
+
 interface OperationStrategy {
     int execute(int a, int b);
 }
-//нем бар еды айтуга тусып СДУ га тусе салу керек ед збзб
+
 
 class AddStrategy implements OperationStrategy {
     @Override
@@ -18,7 +18,7 @@ class SubtractStrategy implements OperationStrategy {
     }
 }
 
-// Context Class
+
 class Calculator {
     private OperationStrategy strategy;
 
@@ -31,7 +31,6 @@ class Calculator {
     }
 }
 
-// Client Code
 public class StrategyPattern {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
